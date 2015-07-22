@@ -233,6 +233,15 @@ function block_progress_monitorable_modules() {
             ),
             'defaultAction' => 'viewed'
         ),
+        'dataform' => array (
+	        'actions' => array(
+	        	'submitted'	=> "SELECT id
+			                   	FROM {dataform_entries}
+				                WHERE dataid = :eventid
+				                AND userid = :userid",
+            	),
+	            'defaultAction' => 'submitted'
+        ),
         'feedback' => array(
             'defaultTime' => 'timeclose',
             'actions' => array(
