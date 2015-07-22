@@ -32,6 +32,7 @@ $string['certificate'] = 'Certificate';
 $string['chat'] = 'Chat';
 $string['choice'] = 'Choice';
 $string['data'] = 'Database';
+$string['data'] = 'Dataform';
 $string['feedback'] = 'Feedback';
 $string['flashcardtrainer'] = 'Flashcard trainer';
 $string['folder'] = 'Folder';
